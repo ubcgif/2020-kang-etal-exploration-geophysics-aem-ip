@@ -24,7 +24,7 @@ project:
   doi: 10.1080/08123985.2019.1690393
   arxiv: 1909.12993
   github: https://github.com/simpeg-research/kang-2019-3D-aem
-  date: 2019/11/27 # date of publication
+  date: 2020/01/01 # date of publication
   # license: CC-BY-4.0  # uncomment this and the line below if open access
   # open_access: true
   venue:
@@ -33,7 +33,7 @@ project:
   history:
     received: 2018/10/01
     accepted: 2019/09/10
-    published: 2019/11/27
+    published: 2020/01/01
   keywords:
     - Airborne Electromagnetics
     - Induced Polarisation
