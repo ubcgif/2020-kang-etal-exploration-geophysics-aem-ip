@@ -1,7 +1,7 @@
 # See docs at: https://mystmd.org/guide/frontmatter
 version: 1
 project:
-  id: ubcgif-2020-kang-etal-exploration
+  id: ubcgif-2020-kang-etal-exploration-geo
   title: Detecting induced polarisation effects in time-domain data - a modelling study using stretched exponentials
   description: The effects of the background conductivity are investigated; this study shows that a moderately conductive and chargeable target in a resistive host is an ideal scenario for generating strong IP signals
   authors:
@@ -10,13 +10,12 @@ project:
       email: sgkang09@stanford.edu
       corresponding: true
       orcid: 0000-0002-9963-936X
-      affiliation:
-        id: ubc
-        name: Department of Earth, Ocean and Atmospheric Sciences, University of British Columbia, Vancouver, British Columbia
     - name: Lindsey J. Heagy
       email: lheagy@eoas.ubc.ca
       orcid: 0000-0002-1551-5926
-      affiliation: ubc
+      affiliation:
+        id: ubc
+        name: Geophysical Inversion Facility, University of British Columbia, Vancouver, British Columbia
     - name: Douglas W. Oldenburg
       affiliation: ubc
       email: doug@eos.ubc.ca
