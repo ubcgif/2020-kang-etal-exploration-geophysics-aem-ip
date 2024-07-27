@@ -1,43 +1,48 @@
 # See docs at: https://mystmd.org/guide/frontmatter
 version: 1
 project:
-  id: ubcgif-2020-kang-etal-exploration-geophysics
-  # title: TITLE OF PAPER
-  # description: SHORT DESCRIPTION HERE
+  id: ubcgif-2020-kang-etal-exploration-geo
+  title: Detecting induced polarisation effects in time-domain data - a modelling study using stretched exponentials
+  description: The effects of the background conductivity are investigated; this study shows that a moderately conductive and chargeable target in a resistive host is an ideal scenario for generating strong IP signals
   authors:
-    # - name: AUTHOR 1
-    #   email: EMAIL
-    #   corresponding: true
-    #   orcid: ORCID
-    #   affiliation:
-    #     id: ubc
-    #     name: Department of Earth, Ocean and Atmospheric Sciences, University of British Columbia, Vancouver, British Columbia
-    # - name: Lindsey J. Heagy
-    #   email: lheagy@eoas.ubc.ca
-    #   corresponding: true
-    #   orcid: 0000-0002-1551-5926
-    #   affiliation: ubc
-  # doi: DOI
-  # arxiv: ARXIV
-  # github: GITHUB-URL
-  # date: YYYY/MM/DD # date of publication
+    - name: Seogi Kang
+      affiliation: Department of Geophysics, Stanford University, Stanford, California
+      email: sgkang09@stanford.edu
+      corresponding: true
+      orcid: 0000-0002-9963-936X
+    - name: Lindsey J. Heagy
+      email: lheagy@eoas.ubc.ca
+      orcid: 0000-0002-1551-5926
+      affiliation:
+        id: ubc
+        name: Geophysical Inversion Facility, University of British Columbia, Vancouver, British Columbia
+    - name: Douglas W. Oldenburg
+      affiliation: ubc
+      email: doug@eos.ubc.ca
+      orcid: 0000-0002-4327-2124
+  doi: 10.1080/08123985.2019.1690393
+  arxiv: 1909.12993
+  github: https://github.com/simpeg-research/kang-2019-3D-aem
+  date: 2020/01/01 # date of publication
   # license: CC-BY-4.0  # uncomment this and the line below if open access
   # open_access: true
   venue:
-    # title: JOURNAL NAME
-    # url: JOURNAL URL
+    title: Exploration Geophysics
+    url: https://www.tandfonline.com/doi/full/10.1080/08123985.2019.1690393
   history:
-    # received: YYYY/MM/DD
-    # accepted: YYYY/MM/DD
-    # published: YYYY/MM/DD
+    received: 2018/10/01
+    accepted: 2019/09/10
+    published: 2020/01/01
   keywords:
-    # - KEYWORD 1
-    # - KEYWORD 2
-    # - KEYWORD 3
-    # - KEYWORD 4
+    - Airborne Electromagnetics
+    - Induced Polarisation
+    - Electromagnetic Geophysics
   abbreviations:
-    # CSEM: controlled source electromagnetics
-    # EM: electromagnetics
+    IP: Induced Polarisation
+    EM: electromagnetics
+    AEM: Airborne Electromagnetics
+    SE: Stretched Exponential
+    TEM: Time Domain Electromagnetics
   thumbnail: thumbnail.png
   numbering:
     headings: true
@@ -45,5 +50,5 @@ site:
   template: article-theme
   actions:
     - title: pdf
-      # url: NAME-OF-PDF.pdf
+      url: kang-etal-2020-exploration-geophysics.pdf
       static: true
